@@ -24,3 +24,4 @@ class Newsfeed:
           email_body= email_body + i['title']+"\n"+ i['url']+"\n\n"
           #print(email_body)
         return email_body
+

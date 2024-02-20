@@ -4,6 +4,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
+
 client = Courier(auth_token=os.getenv("AUTH_TOKEN"))
 from news import Newsfeed
 def send_email(name,email,interestt):
