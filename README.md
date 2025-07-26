@@ -1,61 +1,44 @@
 # SAMACHAR
-1)To make newspapers tremendous amount of trees are cut daily. In India itself, more than 240 million copies of newspapers are produced daily. So SAMACHAR(i.e. News in the Hindi language) aims to make this planet greener by switching people from physical newspapers to E-Newspaper so that no more trees have to be cut down to make Newspapers!
 
-2)In today's fast-running world, people don't get time to hogg from one website to another to check for news related to a particular topic, so SAMACHAR is here to solve this problem!
+SAMACHAR is an eco-friendly E-Newspaper platform designed to reduce paper waste and make news access easier and smarter.
 
-## What it does
-SAMACHAR  helps its user to get a personalized **newspaper mailed** to their email id along with an **SMS** on their phone number notifying them about the delivery of their E-Newspaper.
-As the newspaper is mailed, the news links are getting stored with the user for future reference.
+## Why SAMACHAR?
 
-## How I built it
-I used Python's Streamlit framework along with HTML/CSS to make this app. I also used Firebase and Google's OAuth authentication to get a highly secured user authentication system along with use of a session state system to store authentication tokens so that the user remains signed in for the entire time he/she is on the app.
-I used the API of  newsapi.org to get the news of users' interest, used Courier's Email service with Gmail as a provider along with Courier's SMS service with Twilio as the provider.
+- **Save Trees:** Over 240 million physical newspapers are printed daily in India, costing countless trees. SAMACHAR helps you switch to digital news and contribute to a greener planet.
+- **Personalized News:** Get a custom newspaper delivered to your email, plus an SMS notification when it arrives.
+- **Easy Reference:** Your news links are stored for future access—no more searching multiple sites.
 
-## Challenges I ran into
-For making this website highly secure, implementing Google's OAuth along with storing access tokens was a challenging task for me.
+## How SAMACHAR Works
 
-## Accomplishments that I am proud of
--Doing the research, and constructing the backend as well as the front end all alone.
--Ensuring a high-security level of website for my users by implementing various authentications.
--Making a quality app with styling, animations, and security that will make the life of people easy and help them save their precious time.
+- **User Authentication:** Secure sign-in using Google OAuth and Firebase.
+- **News Delivery:** News is fetched from newsapi.org based on your interests.
+- **Notifications:** Receive your E-Newspaper via email (Gmail + Courier) and SMS (Twilio + Courier).
 
-## What I learned
--Using Courier's developer-friendly platform.
--Integrating APIs.
--Implementing Google Authentication.
--Using session state to store tokens.
--Using firebase authentication and database management system.
--Implementing CSS/HTML within Streamlit framework.
--Putting Animations on the website.
+## Key Features
 
-## What's next for SAMACHAR
--Implementing Machine Learning algorithms to provide news in sorted order from most to least trending news along with sentiment analysis to categorize news as positive news and negative news.
+- **Security:** Advanced authentication keeps your data safe.
+- **User Experience:** Stylish interface with animations for a smooth experience.
+- **Convenience:** Stay signed in and access your news anytime.
 
--Monetization can be integrated in the future for advanced versions of the subscription-based model.
-## Open for Contributions
+## What’s Next?
 
-This is an open source project so feel free to contribute!!
+- **Smart Sorting:** Machine Learning will soon sort news by trends and sentiment (positive/negative).
+- **Monetization:** Future plans include premium subscription options.
 
-Follow these simple steps:
+## How to Contribute
 
-1. Fork This Repository
-	
-2.  Using Git on your local machine, clone your fork using the URL you just copied: git clone URL_OF_FORK
-	
-3.  Navigate to Repo enter cd NAME_OF_REPOSITORY
-	
-4.  git remote add upstream URL_OF_PROJECT
-	
-5.  git remote -v
-	
-6.  git pull upstream master
-	
-7.  git checkout -b BRANCH_NAME
-	
-8.  Make Changes
-	
-9.  git add .
-	
-10.  git commit -m "commit message"
-       
-11.  git push -u origin BRANCH_NAME
+SAMACHAR is open source! Join us:
+
+1. **Fork the Repository**
+2. **Clone Your Fork:** `git clone URL_OF_FORK`
+3. **Navigate to Repo:** `cd NAME_OF_REPOSITORY`
+4. **Add Upstream:** `git remote add upstream URL_OF_PROJECT`
+5. **Check Remotes:** `git remote -v`
+6. **Sync Changes:** `git pull upstream master`
+7. **Create Branch:** `git checkout -b BRANCH_NAME`
+8. **Make Changes**
+9. **Stage Files:** `git add .`
+10. **Commit:** `git commit -m "commit message"`
+11. **Push:** `git push -u origin BRANCH_NAME`
+
+**We welcome your ideas and improvements!**
