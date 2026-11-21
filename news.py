@@ -1,7 +1,8 @@
+import os
 import requests
 class Newsfeed:
     base_url='https://newsapi.org/v2/everything?'
-    api_key= "f6fcf829fb5840cd8695085bc153b89d"
+    api_key = os.getenv("NEWS_API_KEY")
     def __init__(self,interest,from_date,to_date,language='en'):
         self.interest=interest
         self.from_date=from_date
